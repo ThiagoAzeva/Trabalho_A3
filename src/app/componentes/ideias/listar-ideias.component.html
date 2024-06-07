@@ -1,0 +1,17 @@
+<section class="container">
+<header class="header d-flex">
+  <h2 class="ff-inter" >Meu Mural!</h2>
+  <button routerLink="/criar-ideia" class="botao">Adicionar Ideia</button>
+</header>
+<div class="mural" *ngIf = "listaIdeias.length > 0, else semIdeias">
+  <div *ngFor="let ideia of listaIdeias">
+    <app-ideia [ideia]="ideia"></app-ideia>
+  </div>
+</div>
+</section>
+<ng-template #semIdeias>
+  <div class="ff-inter sem-pensamentos">
+    <p>Sem Ideias Cadastradas</p>
+  </div>
+</ng-template>
+
