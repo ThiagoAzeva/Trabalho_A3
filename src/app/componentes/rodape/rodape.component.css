@@ -1,0 +1,27 @@
+footer {
+  background-color: #80B9AD;
+  padding: 1rem 2rem;
+}
+
+
+
+
+
+footer small {
+  color: white;
+}
+
+@media (max-width: 576px) {
+
+  .cabecalho p {
+    font-size: 1.5rem
+  }
+}
+
+@media (max-width: 768px) {
+  footer {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 1rem;
+  }
+}
