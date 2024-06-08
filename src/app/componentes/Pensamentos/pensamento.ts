@@ -1,6 +1,6 @@
-export interface Pesnamento{
-  id: number;
-  conteudo: string;
-  autoria: string;
-  modelo: string;
+export interface Pensamento {
+  id?: string
+  conteudo: string
+  autoria: string
+  modelo: string
 }
