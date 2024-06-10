@@ -2,6 +2,8 @@
 
 O Mural de Ideias é uma aplicação web desenvolvida para permitir aos usuários capturar, organizar e compartilhar suas ideias de forma intuitiva e visualmente atraente. O projeto utiliza Angular no frontend para uma experiência de usuário responsiva e moderna, e json-server para uma simulação de backend que maneja as operações CRUD (criar, ler, atualizar, deletar) de forma eficiente. Ideal para criativos, profissionais e estudantes que desejam manter um registro organizado de suas ideias e inspirações.
 
+---
+
 ## Pré-requisitos
 
 Antes de iniciar, você precisará ter instalado no seu computador:
