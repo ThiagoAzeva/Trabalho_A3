@@ -85,7 +85,7 @@ Aqui temos a pagina principal onde você vai encontrar alguns pensamentos ja sal
 ---
 Aqui temos a pagina de cadastro de uma nova ideia onde você digitará sua ideia, a autoria e o modelo de como ele vai ser salvo.
 
-![Imagina da pagina principal](Trabalho_A3/Imagens/Pagina-Cadastro.png)
+![Imagina da pagina principal](Imagens/Pagina-Cadastro.png)
 
 ---
 
