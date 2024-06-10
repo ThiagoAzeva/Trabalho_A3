@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { CriarPensamentoComponent } from './componentes/Pensamentos/criar-pensamentos/criar-pensamento.component';
 import { ListarIdeiasComponent } from './componentes/Pensamentos/listar-ideias/listar-ideias.component';
 import { ExcluirIdeiaComponent } from './componentes/Pensamentos/excluir-ideia/excluir-ideia.component';
+import { EditarIdeiaComponent } from './componentes/Pensamentos/editar-ideia/editar-ideia.component';
 
 const routes: Routes = [
   {
@@ -21,6 +22,10 @@ const routes: Routes = [
   {
     path: 'Pensamentos/excluir-ideia/:id',
     component: ExcluirIdeiaComponent
+  },
+  {
+    path: 'Pensamentos/editar-ideia/:id',
+    component: EditarIdeiaComponent
   },
 
 

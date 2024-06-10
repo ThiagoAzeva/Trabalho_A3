@@ -11,6 +11,7 @@ import { ListarIdeiasComponent } from './componentes/Pensamentos/listar-ideias/l
 import { IdeiaComponent } from './componentes/Pensamentos/ideia/ideia.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ExcluirIdeiaComponent } from './componentes/Pensamentos/excluir-ideia/excluir-ideia.component';
+import { EditarIdeiaComponent } from './componentes/Pensamentos/editar-ideia/editar-ideia.component';
 
 
 @NgModule({
@@ -22,6 +23,7 @@ import { ExcluirIdeiaComponent } from './componentes/Pensamentos/excluir-ideia/e
     ListarIdeiasComponent,
     IdeiaComponent,
     ExcluirIdeiaComponent,
+    EditarIdeiaComponent,
 
   ],
   imports: [
