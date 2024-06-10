@@ -3,7 +3,7 @@
   <p class="conteudo">{{ideia.conteudo}}</p>
   <p class="autoria"><b>{{ideia.autoria}}</b></p>
   <div class="acoes">
-    <button class="botao-editar " >
+    <button class="botao-editar " routerLink="/Pensamentos/editar-ideia/{{ideia.id}}">
       <img src="../../../assets/imagens/icone-editar.png" alt="Botão editar">
     </button>
     <button class="botao-excluir" routerLink="/Pensamentos/excluir-ideia/{{ideia.id}}" >
