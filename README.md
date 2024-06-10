@@ -78,8 +78,14 @@ Por padrão, a aplicação estará acessível em http://localhost:4200.
 
 Prints da Tela
 
-Inclua capturas de tela da aplicação para fornecer uma prévia visual das funcionalidades e da interface do usuário.
+Aqui temos a pagina principal onde você vai encontrar alguns pensamentos ja salvos, um botão que ao ser clicado vai para a pagina de adicionar novo pensamento. É nela que você verá suas ideias salvas podendo excluilas ou editalas.
 
+![Imagina da pagina principal]( Pagina-Lista.png "Pagina-Lista")
+ 
+---
+Aqui temos a pagina de cadastro de uma nova ideia onde você digitará sua ideia, a autoria e o modelo de como ele vai ser salvo.
+
+![Imagina da pagina principal]( Pagina-Cadastro.png "Pagina-Cadastro")
 ---
 
 Uso
