@@ -1,28 +1,71 @@
-# Memoteca
+# Mural de Ideias
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.3.
+O Mural de Ideias é uma aplicação web desenvolvida para permitir aos usuários capturar, organizar e compartilhar suas ideias de forma intuitiva e visualmente atraente. O projeto utiliza Angular no frontend para uma experiência de usuário responsiva e moderna, e json-server para uma simulação de backend que maneja as operações CRUD (criar, ler, atualizar, deletar) de forma eficiente. Ideal para criativos, profissionais e estudantes que desejam manter um registro organizado de suas ideias e inspirações.
 
-## Development server
+## Pré-requisitos
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Antes de iniciar, você precisará ter instalado no seu computador:
+- Node.js
+- npm (Node Package Manager)
+- Angular CLI
+- json-server
 
-## Code scaffolding
+## Instalação
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Node.js e npm
 
-## Build
+Instale o Node.js e npm, que é o gerenciador de pacotes do Node, a partir do [site oficial do Node.js](https://nodejs.org/).
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### Angular CLI
 
-## Running unit tests
+Com o Node.js e npm instalados, execute o seguinte comando no terminal para instalar o Angular CLI globalmente:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```bash
+npm install -g @angular/cli
+```
+json-server
+Instale o json-server globalmente usando npm com o seguinte comando:
+```bash
+npm install -g json-server
+```
+Configuração do Projeto
+Clone o repositório
 
-## Running end-to-end tests
+```bash
+git clone https://link-para-o-seu-repositorio.git
+cd nome-do-seu-repositorio
+```
+Instale as dependências
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Dentro do diretório do projeto, execute:
 
-## Further help
+```bash
+npm install
+Inicie o json-server
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-# Trabalho_A3
+Navegue até a pasta backend e inicie o servidor usando:
+
+```bash
+cd backend
+npm start
+```
+Isso iniciará o json-server na porta configurada, normalmente 3000.
+
+Inicie o projeto Angular
+
+Em um novo terminal, navegue de volta ao diretório raiz do projeto e inicie o servidor de desenvolvimento do Angular:
+
+```bash
+Copiar código
+ng serve
+Por padrão, a aplicação estará acessível em http://localhost:4200.
+```
+Prints da Tela
+
+Inclua capturas de tela da aplicação para fornecer uma prévia visual das funcionalidades e da interface do usuário.
+
+Uso
+Após iniciar o servidor Angular e o json-server, você pode acessar a aplicação pelo navegador em http://localhost:4200. Use a aplicação para criar, editar, deletar e categorizar ideias conforme necessário.
+
+
