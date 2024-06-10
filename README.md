@@ -11,12 +11,14 @@ Antes de iniciar, você precisará ter instalado no seu computador:
 - npm (Node Package Manager)
 - Angular CLI
 - json-server
+---
 
 ## Instalação
 
 ### Node.js e npm
 
 Instale o Node.js e npm, que é o gerenciador de pacotes do Node, a partir do [site oficial do Node.js](https://nodejs.org/).
+---
 
 ### Angular CLI
 
@@ -25,11 +27,15 @@ Com o Node.js e npm instalados, execute o seguinte comando no terminal para inst
 ```bash
 npm install -g @angular/cli
 ```
+---
+
 json-server
 Instale o json-server globalmente usando npm com o seguinte comando:
 ```bash
 npm install -g json-server
 ```
+---
+
 Configuração do Projeto
 Clone o repositório
 
@@ -37,6 +43,8 @@ Clone o repositório
 git clone https://link-para-o-seu-repositorio.git
 cd nome-do-seu-repositorio
 ```
+---
+
 Instale as dependências
 
 Dentro do diretório do projeto, execute:
@@ -45,6 +53,7 @@ Dentro do diretório do projeto, execute:
 npm install
 Inicie o json-server
 ```
+---
 
 Navegue até a pasta backend e inicie o servidor usando:
 
@@ -53,6 +62,8 @@ cd backend
 npm start
 ```
 Isso iniciará o json-server na porta configurada, normalmente 3000.
+
+---
 
 Inicie o projeto Angular
 
@@ -63,9 +74,13 @@ Copiar código
 ng serve
 Por padrão, a aplicação estará acessível em http://localhost:4200.
 ```
+---
+
 Prints da Tela
 
 Inclua capturas de tela da aplicação para fornecer uma prévia visual das funcionalidades e da interface do usuário.
+
+---
 
 Uso
 Após iniciar o servidor Angular e o json-server, você pode acessar a aplicação pelo navegador em http://localhost:4200. Use a aplicação para criar, editar, deletar e categorizar ideias conforme necessário.
