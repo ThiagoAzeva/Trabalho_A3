@@ -80,12 +80,11 @@ Prints da Tela
 
 Aqui temos a pagina principal onde você vai encontrar alguns pensamentos ja salvos, um botão que ao ser clicado vai para a pagina de adicionar novo pensamento. É nela que você verá suas ideias salvas podendo excluilas ou editalas.
 
-![Imagem da página principal](Pagina-Lista.png "Pagina-Lista")
-
+![Imagina da pagina principal](../Trabalho_A3/Imagens/Pagina-Lista.png "Pagina-Lista")
+ 
 ---
-Aqui temos a página de cadastro de uma nova ideia onde você digitará sua ideia, a autoria e o modelo de como ele vai ser salvo.
-
-![Imagem da página de cadastro](Pagina-Cadastro.png "Pagina-Cadastro")
+Aqui temos a pagina de cadastro de uma nova ideia onde você digitará sua ideia, a autoria e o modelo de como ele vai ser salvo.
+![Imagina da pagina principal](../Trabalho_A3/Imagens/Pagina-Cadastro.png "Pagina-Cadastro")
 
 ---
 
